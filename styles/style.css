@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 *{
     margin: 0 auto;
     box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
 }
 header{
     background-color: #FCEEF1;
@@ -44,3 +48,237 @@ header{
     margin-bottom: 0;
     padding-top: 50px;
 }
+
+/* header ends */
+
+.pink-flowers{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.pink-flowers h1{
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+.pink-flowers p{
+    width: 530px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-family: Lato;
+    font-size: 18px;    
+}
+.flowers{
+    padding: 0 30px;
+    overflow: hidden;
+    display: flex;
+    margin-top: 50px;
+    /* column-gap: 30px; */
+}
+.flowers .flower1{
+    width: 400px;
+    height: 530px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: #F2DEE7;
+
+}
+.flowers .flower1 img{
+    padding: 100px 50px 0px 50px;
+}
+
+.flowers .flower2{
+    width: 400px;
+    height: 530px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: #D9EFF1;
+}
+.flowers .flower2 img{
+    padding: 100px 50px 0px 50px;
+}
+.flowers .flower3{
+    
+    width: 400px;
+    height: 530px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: #E3EBDB;
+}
+.flowers .flower3 img{
+    padding: 60px 50px 0px 50px;
+}
+.flower1 > p,
+.flower2 > p,
+.flower3 > p
+{
+    text-align: center;
+    text-decoration: underline;
+    color: #272727;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* features start */
+.features{
+    padding-top: 86px;
+    padding-left: 130px;
+    padding-right: 120px;
+    text-align: center;
+    height: 270px;
+    margin: 125px 130px 0 130px;
+    display: flex;
+    background-color: #F4F4F4;
+
+}
+.features img{
+    height: 88px;
+    width: 88px;
+    margin-bottom: 30px;
+}
+
+/* hot deal start */
+.hot-deal{
+    margin-top: 100px;
+    background-color: #FEF6F8;
+    display: flex;
+
+}
+.deal-description{
+    padding: 170px 120px 120px 120px;
+    
+}
+.deal-description h1{
+    margin-bottom: 24px;
+    color: #272727;
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+.deal-description p{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 22px;
+    width: 550px;
+    height: 50px;
+    text-align: center;
+}
+.sign-up{
+        margin-left: 100px;
+        margin-top: 22px;
+        padding: 20px 33px;
+        border-radius: 8px;
+        background: #E55473;
+        margin-bottom: 30px;
+        color: #FCEEF1;
+        font-size: 20px;
+        font-weight: 400;
+}
+
+.deal-image{
+    padding-top: 100px;
+    padding-right: 200px;
+}
+.deal-image img{
+    width: 318px;
+    height: 420px;
+}
+
+/* latest deal */
+
+.latest-deal{
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 150px;
+    background-image: url("../images/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+}
+.latest-deal > h3{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 14px;
+    margin-bottom: 20px;
+}
+
+.latest-deal p{
+    margin-bottom: 30px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.latest-deal input{
+    width: 600px;
+    height: 54px;
+    border-radius: 8px;
+    background: #FFF;
+}
+ .latest-deal button{
+    height: 54px;
+    width: 120px;
+    border-radius: 8px;
+    background: #E55473;
+    margin-bottom: 30px;
+    color: #FCEEF1;
+    font-size: 14px;
+    font-weight: 400;
+ }
+
+
+/* Extra part */
+/* Todays Special */
+
+.day-special{
+    margin-top: 70px;
+    text-align: center;
+}
+.special-flowers{
+    display: flex;
+    padding: 0 50px;
+}
+.special-flowers img{
+    height: auto;
+    width: 300px;
+}
+/* footer starts */
+footer{
+    background-color: #272727;
+    margin-top: 80px;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+}
+footer h2{
+    margin-top: 20px;
+    font-weight: 800px;
+    color: #D9EFF1;
+    font-size: 48px;
+    font-weight: 800;
+}
+footer p{
+    margin: 20px 0;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+footer h5{
+    color: rgba(255, 255, 255, 0.40);
+}
+
+
